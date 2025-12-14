@@ -1,0 +1,36 @@
+baseURL = 'https://riprayt.github.io/'
+languageCode = 'tr-tr'
+title = 'yesams blog'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "auto" 
+  ShowReadingTime = true 
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true 
+  
+  # Ana sayfa profil kısmı
+  [params.homeInfoParams]
+    Title = "Hi there 👋"
+    Content = "Mathematics & Computer Science Student @ Istanbul Technical University. Focused on AI & Backend"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/riprayt"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/yusuf-emir-samsa/"
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archive"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 20
